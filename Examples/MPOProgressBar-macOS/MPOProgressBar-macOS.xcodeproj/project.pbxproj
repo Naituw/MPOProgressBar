@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0764A70E16BE8BA6993DFC /* libPods-MPOProgressBar-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FD1FBA6A23D77D6DF9514F /* libPods-MPOProgressBar-macOS.a */; };
+		C68C6C031FE8E3DB00BB2CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68C6C021FE8E3DB00BB2CAF /* AppDelegate.m */; };
+		C68C6C061FE8E3DB00BB2CAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68C6C051FE8E3DB00BB2CAF /* ViewController.m */; };
+		C68C6C081FE8E3DB00BB2CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68C6C071FE8E3DB00BB2CAF /* Assets.xcassets */; };
+		C68C6C0B1FE8E3DB00BB2CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68C6C091FE8E3DB00BB2CAF /* Main.storyboard */; };
+		C68C6C0E1FE8E3DB00BB2CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68C6C0D1FE8E3DB00BB2CAF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F3EF25AD56386EC458AE8B3 /* Pods-MPOProgressBar-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPOProgressBar-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPOProgressBar-macOS/Pods-MPOProgressBar-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		BA176A03E0C2189A21A3EB29 /* Pods-MPOProgressBar-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPOProgressBar-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPOProgressBar-macOS/Pods-MPOProgressBar-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C68C6BFE1FE8E3DA00BB2CAF /* MPOProgressBar-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPOProgressBar-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68C6C011FE8E3DA00BB2CAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C68C6C021FE8E3DB00BB2CAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C68C6C041FE8E3DB00BB2CAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C68C6C051FE8E3DB00BB2CAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C68C6C071FE8E3DB00BB2CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68C6C0A1FE8E3DB00BB2CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68C6C0C1FE8E3DB00BB2CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68C6C0D1FE8E3DB00BB2CAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68C6C0F1FE8E3DB00BB2CAF /* MPOProgressBar_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MPOProgressBar_macOS.entitlements; sourceTree = "<group>"; };
+		C6FD1FBA6A23D77D6DF9514F /* libPods-MPOProgressBar-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPOProgressBar-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68C6BFB1FE8E3DA00BB2CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0764A70E16BE8BA6993DFC /* libPods-MPOProgressBar-macOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AA7316A19B21D03B53BF5BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA176A03E0C2189A21A3EB29 /* Pods-MPOProgressBar-macOS.debug.xcconfig */,
+				7F3EF25AD56386EC458AE8B3 /* Pods-MPOProgressBar-macOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C68C6BF51FE8E3DA00BB2CAF = {
+			isa = PBXGroup;
+			children = (
+				C68C6C001FE8E3DA00BB2CAF /* MPOProgressBar-macOS */,
+				C68C6BFF1FE8E3DA00BB2CAF /* Products */,
+				8AA7316A19B21D03B53BF5BE /* Pods */,
+				EAC7C7920A887940E4DA9098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C68C6BFF1FE8E3DA00BB2CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68C6BFE1FE8E3DA00BB2CAF /* MPOProgressBar-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68C6C001FE8E3DA00BB2CAF /* MPOProgressBar-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C68C6C011FE8E3DA00BB2CAF /* AppDelegate.h */,
+				C68C6C021FE8E3DB00BB2CAF /* AppDelegate.m */,
+				C68C6C041FE8E3DB00BB2CAF /* ViewController.h */,
+				C68C6C051FE8E3DB00BB2CAF /* ViewController.m */,
+				C68C6C071FE8E3DB00BB2CAF /* Assets.xcassets */,
+				C68C6C091FE8E3DB00BB2CAF /* Main.storyboard */,
+				C68C6C0C1FE8E3DB00BB2CAF /* Info.plist */,
+				C68C6C0D1FE8E3DB00BB2CAF /* main.m */,
+				C68C6C0F1FE8E3DB00BB2CAF /* MPOProgressBar_macOS.entitlements */,
+			);
+			path = "MPOProgressBar-macOS";
+			sourceTree = "<group>";
+		};
+		EAC7C7920A887940E4DA9098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6FD1FBA6A23D77D6DF9514F /* libPods-MPOProgressBar-macOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68C6BFD1FE8E3DA00BB2CAF /* MPOProgressBar-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68C6C121FE8E3DB00BB2CAF /* Build configuration list for PBXNativeTarget "MPOProgressBar-macOS" */;
+			buildPhases = (
+				CA6FDE7CF20D2C36ACE3C403 /* [CP] Check Pods Manifest.lock */,
+				C68C6BFA1FE8E3DA00BB2CAF /* Sources */,
+				C68C6BFB1FE8E3DA00BB2CAF /* Frameworks */,
+				C68C6BFC1FE8E3DA00BB2CAF /* Resources */,
+				2A5FFAEF2D71FDA7CA14AA84 /* [CP] Embed Pods Frameworks */,
+				FDF9E099DE5A03C1667FC10A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPOProgressBar-macOS";
+			productName = "MPOProgressBar-macOS";
+			productReference = C68C6BFE1FE8E3DA00BB2CAF /* MPOProgressBar-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68C6BF61FE8E3DA00BB2CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wutian;
+				TargetAttributes = {
+					C68C6BFD1FE8E3DA00BB2CAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C68C6BF91FE8E3DA00BB2CAF /* Build configuration list for PBXProject "MPOProgressBar-macOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68C6BF51FE8E3DA00BB2CAF;
+			productRefGroup = C68C6BFF1FE8E3DA00BB2CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68C6BFD1FE8E3DA00BB2CAF /* MPOProgressBar-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68C6BFC1FE8E3DA00BB2CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68C6C081FE8E3DB00BB2CAF /* Assets.xcassets in Resources */,
+				C68C6C0B1FE8E3DB00BB2CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5FFAEF2D71FDA7CA14AA84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MPOProgressBar-macOS/Pods-MPOProgressBar-macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6FDE7CF20D2C36ACE3C403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF9E099DE5A03C1667FC10A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MPOProgressBar-macOS/Pods-MPOProgressBar-macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68C6BFA1FE8E3DA00BB2CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68C6C061FE8E3DB00BB2CAF /* ViewController.m in Sources */,
+				C68C6C0E1FE8E3DB00BB2CAF /* main.m in Sources */,
+				C68C6C031FE8E3DB00BB2CAF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68C6C091FE8E3DB00BB2CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68C6C0A1FE8E3DB00BB2CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68C6C101FE8E3DB00BB2CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C68C6C111FE8E3DB00BB2CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C68C6C131FE8E3DB00BB2CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA176A03E0C2189A21A3EB29 /* Pods-MPOProgressBar-macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MPOProgressBar-macOS/MPOProgressBar_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				INFOPLIST_FILE = "MPOProgressBar-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wutian.MPOProgressBar-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C68C6C141FE8E3DB00BB2CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3EF25AD56386EC458AE8B3 /* Pods-MPOProgressBar-macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MPOProgressBar-macOS/MPOProgressBar_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				INFOPLIST_FILE = "MPOProgressBar-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wutian.MPOProgressBar-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68C6BF91FE8E3DA00BB2CAF /* Build configuration list for PBXProject "MPOProgressBar-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68C6C101FE8E3DB00BB2CAF /* Debug */,
+				C68C6C111FE8E3DB00BB2CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68C6C121FE8E3DB00BB2CAF /* Build configuration list for PBXNativeTarget "MPOProgressBar-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68C6C131FE8E3DB00BB2CAF /* Debug */,
+				C68C6C141FE8E3DB00BB2CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68C6BF61FE8E3DA00BB2CAF /* Project object */;
+}

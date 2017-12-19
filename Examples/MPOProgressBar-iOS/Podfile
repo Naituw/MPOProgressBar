@@ -1,0 +1,2 @@
+target 'MPOProgressBar-iOS'
+pod 'MPOProgressBar', :path => '../../'

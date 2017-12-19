@@ -1,0 +1,16 @@
+PODS:
+  - MPOProgressBar (0.0.1)
+
+DEPENDENCIES:
+  - MPOProgressBar (from `../../`)
+
+EXTERNAL SOURCES:
+  MPOProgressBar:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  MPOProgressBar: 27757b5f48b733efeb8b7da96ce0e90c9c875f0e
+
+PODFILE CHECKSUM: 13710fecccbe2d67b3d6e1083d957fcef6a8d45e
+
+COCOAPODS: 1.1.1

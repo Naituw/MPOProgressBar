@@ -1,0 +1,22 @@
+{
+  "name": "MPOProgressBar",
+  "version": "0.0.1",
+  "authors": [
+    "Naituw",
+    "The Material Components authors"
+  ],
+  "summary": "A material design progress bar",
+  "homepage": "https://github.com/Naituw/MPOProgressBar",
+  "license": "Apache 2.0",
+  "source": {
+    "git": "https://github.com/Naituw/MPOProgressBar.git"
+  },
+  "requires_arc": true,
+  "source_files": "MPOProgressBar/*.{h,m}",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
