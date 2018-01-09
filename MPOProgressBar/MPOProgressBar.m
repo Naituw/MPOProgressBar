@@ -63,7 +63,20 @@
     [super layoutSublayers];
     
     CGRect b = self.bounds;
+    
+    CGFloat newWidth = b.size.width * _progress;
+    BOOL needsAnimation = newWidth > _determinateFillLayer.frame.size.width;
+    
+    if (!needsAnimation) {
+        [CATransaction begin];
+        [CATransaction setDisableActions:YES];
+    }
+    
     _determinateFillLayer.frame = CGRectMake(0, 0, b.size.width * _progress, b.size.height);
+    
+    if (!needsAnimation) {
+        [CATransaction commit];
+    }
 
     [self _layoutIndeterminateLayers];
 }
